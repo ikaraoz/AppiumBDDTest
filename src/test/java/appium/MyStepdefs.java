@@ -1,0 +1,34 @@
+package appium;
+
+import io.cucumber.java.en.And;
+import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
+
+import java.net.MalformedURLException;
+
+import static appium.AppiumHelpers.navigateHelper;
+
+public class MyStepdefs {
+
+
+    @Given("The user is on Phone app")
+    public void theUserIsOnPhoneApp() throws MalformedURLException {
+        navigateHelper();
+    }
+
+    @When("The user taps {string}")
+    public void theUserTaps(String arg0) {
+        //tap
+    }
+
+    @And("The user types {string} to {string} area")
+    public void theUserTypesToArea(String arg0, String arg1) {
+        //sendKeys
+    }
+
+    @Then("the number is saved")
+    public void theNumberIsSaved() {
+        //tap
+    }
+}

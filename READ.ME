@@ -1,0 +1,18 @@
+1. Ilk olarak gradle/java projesi actik.
+2. Proje acilir acilmaz dependencyleri ekledik.
+    Cucumber
+    Selenium
+    Appium
+    ve test icin Junit dependencyler
+3. Resources folder icinde feature file olusturduk: resources/createAccount
+4. UserStoryiyi yazdik. Burada storyyi yazdiktan sonra step definitions classi olusturmamiz gerekiyor.
+    Create step definitions diyerek stepleri olusturduk.
+5. Simdi appium/MyStepdefs class icindeyiz. Step definitionsda, birden fazla stepsde kullanabiliecegimiz,
+    ama ayni olan methodlar olabilir. Ornegin, sendKeys, click gibi. Bunun icin
+    AppiumHelper classi olusturuyoruz ki buradan gerek duydukca ayni methodu cagirabilelim.
+
+6. appium/AppiumHelper classi icine bu sekilde her zaman kullanabilecegimiz
+    methodlari yaziyoruz. Ancak, feature file yazdigimiz bazi parametrik bilgiler var.
+    Ornegin 'the user send "number" to "phone" area' gibi. Burda phone areayi arka planda
+    bir propoerty filea atacagiz. Ancak buraya attigimiz id ve type gibi bilgiler ile
+    AppiumHelper classi arasinda baglanti kurabilmek icin bir de LocatorMethods classi aciyoruz.
