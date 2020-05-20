@@ -7,7 +7,7 @@ import io.cucumber.java.en.When;
 
 import java.net.MalformedURLException;
 
-import static appium.AppiumHelpers.navigateHelper;
+import static appium.AppiumHelpers.*;
 
 public class MyStepdefs {
 
@@ -19,7 +19,7 @@ public class MyStepdefs {
 
     @When("The user taps {string}")
     public void theUserTaps(String arg0) {
-        //tap
+        tapHelper(arg0);
     }
 
     @And("The user types {string} to {string} area")

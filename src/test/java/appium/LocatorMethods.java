@@ -14,12 +14,13 @@ public class LocatorMethods {
         DesiredCapabilities caps = new DesiredCapabilities();
         caps.setCapability(MobileCapabilityType.APPLICATION_NAME, "Android");
         caps.setCapability(MobileCapabilityType.PLATFORM_VERSION, "10.0");
-        caps.setCapability(MobileCapabilityType.PLATFORM_NAME, "Android");
+       caps.setCapability(MobileCapabilityType.PLATFORM_NAME, "Android");
         caps.setCapability(MobileCapabilityType.AUTOMATION_NAME, "UiAutomator2");
         caps.setCapability(MobileCapabilityType.DEVICE_NAME, "Pixel API 29");
+        //caps.setCapability("app", "/Users/karaozes/IdeaProjects/AppiumBDDTest/apps/Calculator_v7.8 (271241277)_apkpure.com.apk");
         caps.setCapability("appPackage", "com.android.dialer" );
-       // caps.setCapability("appActivity", "com.android.contacts.common.dialog.CallSubjectDialog");
         caps.setCapability("appActivity", ".main.impl.MainActivity");
+
 
         URL url= new URL("http://localhost:4723/wd/hub");
         driver = new AppiumDriver(url, caps);

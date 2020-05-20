@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="763ee4cd-e373-470c-99e3-c7f64fb5c6a7" name="Default Changelist" comment="" />
+    <list default="true" id="763ee4cd-e373-470c-99e3-c7f64fb5c6a7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/Calculator_v7.8 (271241277)_apkpure.com.apk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/locatorId.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/locatorType.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/appium/AppiumHelpers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/appium/AppiumHelpers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/appium/LocatorMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/appium/LocatorMethods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/appium/MyStepdefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/appium/MyStepdefs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/createAccount.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/createAccount.feature" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,7 +29,13 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1c5WloUNRxIR4gLJhuKq7nUS81W" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -27,8 +43,17 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/apps" />
+    </key>
   </component>
   <component name="RunManager" selected="Cucumber java.Feature: createAccount">
     <configuration name="Feature: createAccount" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
@@ -89,30 +114,42 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1638" height="272" key="GridCell.Tab.0.bottom" timestamp="1589917783871">
-      <screen x="1280" y="-62" width="1680" height="1027" />
+    <state width="1238" height="233" key="GridCell.Tab.0.bottom" timestamp="1589996304516">
+      <screen x="0" y="23" width="1280" height="777" />
     </state>
+    <state width="1238" height="233" key="GridCell.Tab.0.bottom/0.23.1280.777/1280.55.1280.1001@0.23.1280.777" timestamp="1589996304516" />
+    <state width="1238" height="272" key="GridCell.Tab.0.bottom/0.23.1280.777/1280.55.1280.1001@1280.55.1280.1001" timestamp="1589964953390" />
     <state width="1238" height="190" key="GridCell.Tab.0.bottom/1280.-62.1680.1027/0.23.1280.777@0.23.1280.777" timestamp="1589909672225" />
-    <state width="1638" height="272" key="GridCell.Tab.0.bottom/1280.-62.1680.1027/0.23.1280.777@1280.-62.1680.1027" timestamp="1589917783871" />
-    <state width="1638" height="272" key="GridCell.Tab.0.center" timestamp="1589917783870">
-      <screen x="1280" y="-62" width="1680" height="1027" />
+    <state width="1638" height="272" key="GridCell.Tab.0.bottom/1280.-62.1680.1027/0.23.1280.777@1280.-62.1680.1027" timestamp="1589919589229" />
+    <state width="1238" height="233" key="GridCell.Tab.0.center" timestamp="1589996304515">
+      <screen x="0" y="23" width="1280" height="777" />
     </state>
+    <state width="1238" height="233" key="GridCell.Tab.0.center/0.23.1280.777/1280.55.1280.1001@0.23.1280.777" timestamp="1589996304515" />
+    <state width="1238" height="272" key="GridCell.Tab.0.center/0.23.1280.777/1280.55.1280.1001@1280.55.1280.1001" timestamp="1589964953388" />
     <state width="1238" height="190" key="GridCell.Tab.0.center/1280.-62.1680.1027/0.23.1280.777@0.23.1280.777" timestamp="1589909672224" />
-    <state width="1638" height="272" key="GridCell.Tab.0.center/1280.-62.1680.1027/0.23.1280.777@1280.-62.1680.1027" timestamp="1589917783870" />
-    <state width="1638" height="272" key="GridCell.Tab.0.left" timestamp="1589917783869">
-      <screen x="1280" y="-62" width="1680" height="1027" />
+    <state width="1638" height="272" key="GridCell.Tab.0.center/1280.-62.1680.1027/0.23.1280.777@1280.-62.1680.1027" timestamp="1589919589228" />
+    <state width="1238" height="233" key="GridCell.Tab.0.left" timestamp="1589996304514">
+      <screen x="0" y="23" width="1280" height="777" />
     </state>
+    <state width="1238" height="233" key="GridCell.Tab.0.left/0.23.1280.777/1280.55.1280.1001@0.23.1280.777" timestamp="1589996304514" />
+    <state width="1238" height="272" key="GridCell.Tab.0.left/0.23.1280.777/1280.55.1280.1001@1280.55.1280.1001" timestamp="1589964953386" />
     <state width="1238" height="190" key="GridCell.Tab.0.left/1280.-62.1680.1027/0.23.1280.777@0.23.1280.777" timestamp="1589909672223" />
-    <state width="1638" height="272" key="GridCell.Tab.0.left/1280.-62.1680.1027/0.23.1280.777@1280.-62.1680.1027" timestamp="1589917783869" />
-    <state width="1638" height="272" key="GridCell.Tab.0.right" timestamp="1589917783870">
-      <screen x="1280" y="-62" width="1680" height="1027" />
+    <state width="1638" height="272" key="GridCell.Tab.0.left/1280.-62.1680.1027/0.23.1280.777@1280.-62.1680.1027" timestamp="1589919589227" />
+    <state width="1238" height="233" key="GridCell.Tab.0.right" timestamp="1589996304515">
+      <screen x="0" y="23" width="1280" height="777" />
     </state>
+    <state width="1238" height="233" key="GridCell.Tab.0.right/0.23.1280.777/1280.55.1280.1001@0.23.1280.777" timestamp="1589996304515" />
+    <state width="1238" height="272" key="GridCell.Tab.0.right/0.23.1280.777/1280.55.1280.1001@1280.55.1280.1001" timestamp="1589964953389" />
     <state width="1238" height="190" key="GridCell.Tab.0.right/1280.-62.1680.1027/0.23.1280.777@0.23.1280.777" timestamp="1589909672225" />
-    <state width="1638" height="272" key="GridCell.Tab.0.right/1280.-62.1680.1027/0.23.1280.777@1280.-62.1680.1027" timestamp="1589917783870" />
+    <state width="1638" height="272" key="GridCell.Tab.0.right/1280.-62.1680.1027/0.23.1280.777@1280.-62.1680.1027" timestamp="1589919589228" />
     <state x="0" y="124" key="Maven.ArtifactSearchDialog" timestamp="1589819345693">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state x="0" y="124" key="Maven.ArtifactSearchDialog/1280.-62.1680.1027/0.23.1280.777@0.23.1280.777" timestamp="1589819345693" />
+    <state x="317" y="244" key="com.intellij.ide.util.TipDialog" timestamp="1589990761090">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state x="317" y="244" key="com.intellij.ide.util.TipDialog/0.23.1280.777/1280.55.1280.1001@0.23.1280.777" timestamp="1589990761090" />
     <state x="212" y="340" key="org.jetbrains.plugins.cucumber.inspections.ui.CreateStepDefinitionFileDialog" timestamp="1589820565008">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
