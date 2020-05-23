@@ -22,13 +22,13 @@ public class LocatorMethods {
     private static final Properties locatorId = new Properties();
     private static final Properties locatorType = new Properties();
 
-    public void setUp() throws IOException {
+    public static void setUp() throws IOException {
         DesiredCapabilities caps = new DesiredCapabilities();
         caps.setCapability(MobileCapabilityType.APPLICATION_NAME, "Android");
         caps.setCapability(MobileCapabilityType.PLATFORM_VERSION, "10.0");
        caps.setCapability(MobileCapabilityType.PLATFORM_NAME, "Android");
         caps.setCapability(MobileCapabilityType.AUTOMATION_NAME, "UiAutomator2");
-        caps.setCapability(MobileCapabilityType.DEVICE_NAME, "Pixel API 29");
+        caps.setCapability(MobileCapabilityType.DEVICE_NAME, "Nexus272");
         //caps.setCapability("app", "/Users/karaozes/IdeaProjects/AppiumBDDTest/apps/Calculator_v7.8 (271241277)_apkpure.com.apk");
         caps.setCapability("appPackage", "com.android.dialer" );
         caps.setCapability("appActivity", ".main.impl.MainActivity");
@@ -39,11 +39,11 @@ public class LocatorMethods {
         wait=new WebDriverWait(driver,10);
         initProperties();
     }
-    public void initProperties() throws IOException {
-        InputStream inputStream=getClass().getClassLoader().getResourceAsStream("locatorId.properties");
+    public static void initProperties() throws IOException {
+        InputStream inputStream= LocatorMethods.class.getClassLoader().getResourceAsStream("locatorId.properties");
         locatorId.load(inputStream);
 
-        InputStream inputStream2=getClass().getClassLoader().getResourceAsStream("locatorType.properties");
+        InputStream inputStream2= LocatorMethods.class.getClassLoader().getResourceAsStream("locatorType.properties");
         locatorType.load(inputStream2);
 
     }

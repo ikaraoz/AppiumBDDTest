@@ -24,12 +24,14 @@ public class MyStepdefs {
     }
 
     @And("The user types {string} to {string} area")
-    public void theUserTypesToArea(String arg0, String arg1) {
-        //sendKeys
+    public void theUserTypesToArea(String input, String area) {
+sendKeys(input,area);
     }
 
-    @Then("the number is saved")
-    public void theNumberIsSaved() {
-        //tap
+
+
+    @Then("{string} is diplayed in {string}")
+    public void isDiplayedIn(String expected, String savedArea) throws InterruptedException {
+checkName(expected, savedArea);
     }
 }
